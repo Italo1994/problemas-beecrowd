@@ -27,5 +27,6 @@ MEDIA = 10.00000
 let A = 5.0, B = 7.1, MEDIA=0, pesoA = 3.5, pesoB = 7.5;
 
 MEDIA = ((A*pesoA) + (B*pesoB)) / 11;
+MEDIA = MEDIA.toFixed(5);
 
 console.log("MEDIA = " +MEDIA+"\n");
